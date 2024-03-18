@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+.conteudo {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+.container {
+    display: block;
+    background-color: rgb(40, 40, 40) ;
+    width: 350px;
+    height: 570px;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button {
+    font-family: Inter-Bold;
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(102, 102, 102);
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    margin: auto auto 15px auto;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-family: Inter-Bold;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(51, 51, 51);
+    background-color: rgb(201, 253, 206);
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    margin: auto auto 15px auto;
+    width: 252px;
+    height: 42px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition-delay: 50ms;
+}
+
+.profileIcon {
+    display: block;
+    align-items: center;
+    background-color: brown;
+    background-image: url('assets/images/avatar-jessica.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    border: 20px 50% 0px 50px;
+    border-radius: 150px;
+}
+
+
+footer {
+    font-family: Inter-Regular;
+    font-size: x-small;
+    display: block;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+h1 {
+    color: white;
+    font-family: Inter-Bold;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+p {
+    margin-top: 30px;
+    font-family: Inter-Regular;
+    font-size: small;
+    color: white;
+}
+
+h3 {
+    margin-top: -10px;
+    font-family: Inter-Regular;
+    font-size: small;
+    color: greenyellow;
+}
+
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
